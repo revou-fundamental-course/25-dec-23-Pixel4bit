@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="js/script.js">
+    <title>Alvian IF</title>
+</head>
+<body>
+    <header>
+        <!-- JUDUL Web -->
+        <center>
+            <h1>Welcome to Katik</h1>
+        </center>
+
+        <!-- Deskripsi Web -->
+        <center>
+            <p class="p1">Halo Ges, selamat datang di Katik</p>
+        </center>
+
+        <center>
+            <p class="p2">Sebuah web apps sederhana yang berfungsi untuk menghitung nilai luas dan keliling bangun datar</p>
+        </center>
+
+        <!-- NAVIGASI -->
+        <nav class="frame-navigation">
+
+            <button id="buttons-luas-segitiga" class="buttons-aktif">
+                Luas Segitiga
+            </button>
+
+            <button id="buttons-keliling-segitiga" class="buttons">
+                Keliling Segitiga
+            </button>
+        </nav>
+    </header>
+
+    <!-- Isi -->
+    <section id="isi">
+
+        <!-- Frame dan Gambar segitiga -->
+        <section class="frame-images">
+            <img class="image-segitiga" src="img/luas-segitia.png" alt="GambarLuas dan Keliling Segitiga">
+        </section>
+
+        <p>Rumus Luas Segitiga yaitu: </p>
+        <center>
+            <p style="font-weight: bold;">L = 1/2 x a x t</p>
+        </center>
+
+        <!-- Frame dan Deskripsi Rumus Segitiga -->
+        <section class="frame-deskripsi-rumus">
+            <p class="deskripsi-rumus">Dimana :</p>
+            <p class="deskripsi-rumus">L = Luas</p>
+            <p class="deskripsi-rumus">a = Panjang alas</p>
+            <p class="deskripsi-rumus">t = Tinggi</p>
+        </section>
+
+        <!-- Frame Perhitungan dan Judul -->
+        <h1 style="text-align: center;">Hitung Luas Segitiga</h1>
+        <section class="frame-perhitungan-segitiga">
+
+            <h4 class="perhitungan-segitiga-h4">Alas:</h4>
+            <input type="number" name="Luas" id="luas-segitiga">
+            
+            <h4 class="perhitungan-segitiga-h4">Tinggi:</h4>
+            <input type="number" name="Luas" id="luas-segitiga">
+        </section>
+
+        <section class="frame-button-perhitungan">
+            <button class="buttons-perhitungan">
+                Hitung
+            </button>
+            <button class="buttons-perhitungan-reset">
+                Reset
+            </button>
+        </section>
+
+    </section>
+</body>
+</html>

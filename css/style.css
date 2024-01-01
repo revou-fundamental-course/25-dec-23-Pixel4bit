@@ -1,0 +1,129 @@
+body {
+    font-family: sans-serif;
+}
+
+.p1 {
+    margin-bottom: 0px;
+}
+
+.p2 {
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+.frame-navigation {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.buttons {
+    margin-bottom: 5px;
+    padding: 15px;
+    font-size: 20px;
+    width: 100%;
+    background-color: white;
+    border: 0px;
+    border-radius: 5px;
+    color: #4CB9E7;
+    font-weight: bold;
+}
+
+.buttons-aktif {
+    margin-bottom: 5px;
+    padding: 15px;
+    font-size: 20px;
+    width: 100%;
+    background-color: #4CB9E7;
+    border: 0px;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+}
+
+.buttons:active {
+    background-color: #4CB9E7;
+    color: white;
+}
+
+.buttons:focus {
+    background-color: #4CB9E7;
+    color: white;    
+}
+
+.buttons:hover {
+    background-color: red;
+    color: white;
+}
+
+.frame-images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-segitiga {
+    height: 200px;
+}
+
+.frame-deskripsi-rumus {
+    display: flex;
+    flex-flow: column wrap;
+    margin-bottom: 25px;
+}
+
+.deskripsi-rumus {
+    margin: 1px;
+}
+
+.frame-perhitungan-segitiga {
+    display: flex;
+    flex-flow: column wrap;
+    margin-top: -20px;
+}
+
+.perhitungan-segitiga-h4 {
+    margin-bottom: 5px;
+}
+
+input {
+    padding: 10px;
+}
+
+input:focus {
+    font-weight: bold;
+    color: white;
+    background-color: #4CB9E7;
+}
+
+.frame-button-perhitungan {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.buttons-perhitungan {
+    margin-top: 15px;
+    margin-right: 10px;
+    padding: 10px;
+    font-size: 15px;
+    width: 70px;
+    background-color: #4CB9E7;
+    border: 0px;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+}
+
+.buttons-perhitungan-reset {
+    margin-top: 15px;
+    padding: 10px;
+    font-size: 15px;
+    width: 70px;
+    background-color: red;
+    border: 0px;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+}

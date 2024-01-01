@@ -68,6 +68,26 @@ body {
     height: 200px;
 }
 
+.frame-rumus {
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-around;
+}
+
+.frame-rumus-luas {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    width: 250px;
+}
+
+.frame-rumus-keliling {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    width: 250px;
+}
+
 .frame-deskripsi-rumus {
     display: flex;
     flex-flow: column wrap;

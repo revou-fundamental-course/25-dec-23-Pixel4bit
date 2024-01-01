@@ -78,10 +78,30 @@ body {
     margin: 1px;
 }
 
-.frame-perhitungan-segitiga {
+.frame-perhitungan {
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-around;
+    margin-top: -20px;
+    padding: 10px;
+}
+
+.frame-perhitungan-luas-segitiga {
+    border: 1px solid red;
+    width: 200px;
     display: flex;
     flex-flow: column wrap;
-    margin-top: -20px;
+    justify-content: space-between;
+}
+
+.frame-button-perhitungan--luas-segitiga {
+    display: flex;
+    justify-content: center;
+}
+
+.frame-perhitungan-keliling-segitiga {
+    border: 1px solid red;
+    width: 200px;
 }
 
 .perhitungan-segitiga-h4 {
@@ -90,6 +110,7 @@ body {
 
 input {
     padding: 10px;
+    width: 150px;
 }
 
 input:focus {
@@ -101,6 +122,9 @@ input:focus {
 .frame-button-perhitungan {
     display: flex;
     flex-flow: row wrap;
+    justify-content: center;
+    border: 1px solid black;
+    width: 200px;
 }
 
 .buttons-perhitungan {

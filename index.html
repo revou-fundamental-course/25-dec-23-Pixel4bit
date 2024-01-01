@@ -44,7 +44,10 @@
             <img class="image-segitiga" src="img/luas-segitia.png" alt="GambarLuas dan Keliling Segitiga">
         </section>
 
-        <p>Rumus Luas Segitiga yaitu: </p>
+        <center>
+            <p>Rumus Luas Segitiga yaitu: </p>
+        </center>
+
         <center>
             <p style="font-weight: bold;">L = 1/2 x a x t</p>
         </center>
@@ -58,23 +61,49 @@
         </section>
 
         <!-- Frame Perhitungan dan Judul -->
-        <h1 style="text-align: center;">Hitung Luas Segitiga</h1>
-        <section class="frame-perhitungan-segitiga">
+        <section class="frame-perhitungan">
+            <section class="frame-perhitungan-luas-segitiga">
+                <center>
+                    <h1 style="margin-bottom: -5px;">Hitung Luas Segitiga</h1>
 
-            <h4 class="perhitungan-segitiga-h4">Alas:</h4>
-            <input type="number" name="Luas" id="luas-segitiga">
-            
-            <h4 class="perhitungan-segitiga-h4">Tinggi:</h4>
-            <input type="number" name="Luas" id="luas-segitiga">
-        </section>
+                    <h4 class="perhitungan-segitiga-h4">Alas (cm):</h4>
+                    <input type="number" name="Luas" id="luas-segitiga">
+                    
+                    <h4 class="perhitungan-segitiga-h4">Tinggi (cm):</h4>
+                    <input type="number" name="Luas" id="tinggi-segitiga">
+                </center>
+                    <section class="frame-button-perhitungan--luas-segitiga">
+                        <button class="buttons-perhitungan">
+                            Hitung
+                        </button>
+                        <button class="buttons-perhitungan-reset">
+                            Reset
+                        </button>
+                    </section>
+            </section>
 
-        <section class="frame-button-perhitungan">
-            <button class="buttons-perhitungan">
-                Hitung
-            </button>
-            <button class="buttons-perhitungan-reset">
-                Reset
-            </button>
+            <section class="frame-perhitungan-keliling-segitiga">
+                <center>
+                    <h1 style="margin-bottom: -5px;">Hitung Keliling Segitiga</h1>
+                    
+                    <h4 class="perhitungan-segitiga-h4">Sisi A (cm):</h4>
+                    <input type="number" name="Luas" id="sisi-a-segitiga">
+                    
+                    <h4 class="perhitungan-segitiga-h4">Sisi B (cm):</h4>
+                    <input type="number" name="Luas" id="sisi-b-segitiga">
+
+                    <h4 class="perhitungan-segitiga-h4">Sisi C (cm):</h4>
+                    <input type="number" name="Luas" id="sisi-c-segitiga">
+
+                    <button class="buttons-perhitungan">
+                        Hitung
+                    </button>
+                    <button class="buttons-perhitungan-reset">
+                        Reset
+                    </button>
+                </center>
+            </section>
+
         </section>
 
     </section>

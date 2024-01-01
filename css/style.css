@@ -69,7 +69,6 @@ body {
 }
 
 .frame-rumus {
-    border: 1px solid black;
     display: flex;
     justify-content: space-around;
 }
@@ -90,7 +89,7 @@ body {
 
 .frame-deskripsi-rumus {
     display: flex;
-    flex-flow: column wrap;
+    justify-content: space-around;
     margin-bottom: 25px;
 }
 

@@ -87,7 +87,6 @@ body {
 }
 
 .frame-perhitungan-luas-segitiga {
-    border: 1px solid red;
     width: 200px;
     display: flex;
     flex-flow: column wrap;
@@ -100,7 +99,6 @@ body {
 }
 
 .frame-perhitungan-keliling-segitiga {
-    border: 1px solid red;
     width: 200px;
 }
 

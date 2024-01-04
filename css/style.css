@@ -138,7 +138,7 @@ input:focus {
 
 .frame-button-perhitungan {
     display: flex;
-    flex-flow: row wrap;
+    flex-flow: row;
     justify-content: center;
     border: 1px solid black;
     width: 200px;
@@ -155,6 +155,21 @@ input:focus {
     border-radius: 5px;
     color: white;
     font-weight: bold;
+    text-align: center;
+}
+
+.buttons-perhitungan:hover {
+    margin-top: 15px;
+    margin-right: 10px;
+    padding: 10px;
+    font-size: 15px;
+    width: 70px;
+    background-color: #43a3cc;
+    border: 0px;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
 }
 
 .buttons-perhitungan-reset {
@@ -167,4 +182,25 @@ input:focus {
     border-radius: 5px;
     color: white;
     font-weight: bold;
+    text-align: center;
+}
+
+.buttons-perhitungan-reset:hover {
+    margin-top: 15px;
+    padding: 10px;
+    font-size: 15px;
+    width: 70px;
+    background-color: rgb(192, 0, 0);
+    border: 0px;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+
+.frame-hasil-perhitungan {
+    border: 1px solid black;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
 }

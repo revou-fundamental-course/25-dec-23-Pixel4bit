@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="js/script.js">
+    <script src="js/script.js"></script>
     <title>Alvian IF</title>
 </head>
 <body>
@@ -26,18 +26,18 @@
         <!-- NAVIGASI -->
         <nav class="frame-navigation">
 
-            <button id="buttons-luas-segitiga" class="buttons-aktif">
+            <button id="buttons_luas_segitiga" class="buttons-aktif">
                 Segitiga
             </button>
 
-            <button id="buttons-keliling-segitiga" class="buttons">
+            <button id="buttons_keliling_segitiga" class="buttons">
                 Jajar Genjang
             </button>
         </nav>
     </header>
 
     <!-- Isi -->
-    <section id="isi">
+    <section id="isi"> <!-- Section isi Start -->
 
         <!-- Frame dan Gambar segitiga -->
         <section class="frame-images">
@@ -74,52 +74,51 @@
         </section>
 
         <!-- Frame Perhitungan Luas -->
-        <section class="frame-perhitungan">
+        <section class="frame-perhitungan"> <!-- Section Perhitungan start -->
             <section class="frame-perhitungan-luas-segitiga">
                 <center>
                     <h1 style="margin-bottom: -5px;">Hitung Luas Segitiga</h1>
 
                     <h4 class="perhitungan-segitiga-h4">Alas (cm):</h4>
-                    <input type="number" name="Luas" id="luas-segitiga">
+                    <input type="number" name="alas-segitiga" id="alas_segitiga">
                     
                     <h4 class="perhitungan-segitiga-h4">Tinggi (cm):</h4>
-                    <input type="number" name="Luas" id="tinggi-segitiga">
+                    <input type="number" name="tinggi-segitiga" id="tinggi_segitiga">
                 </center>
                     <section class="frame-button-perhitungan--luas-segitiga">
-                        <button class="buttons-perhitungan">
-                            Hitung
-                        </button>
-                        <button class="buttons-perhitungan-reset">
-                            Reset
-                        </button>
+                        <input type="button" class="buttons-perhitungan" id="button_hitung_luas" value="Hitung" onclick="hitung_luas();">
+                        <input type="button" class="buttons-perhitungan-reset" id="button_reset_luas" value="Reset" onclick="reset_luas();">
                     </section>
             </section>
 
             <!-- Frame Perhitungan Keliling -->
-            <section class="frame-perhitungan-keliling-segitiga">
+            <section class="frame-perhitungan-keliling-segitiga"> <!-- Section Keliling Start -->
                 <center>
                     <h1 style="margin-bottom: -5px;">Hitung Keliling Segitiga</h1>
                     
                     <h4 class="perhitungan-segitiga-h4">Sisi A (cm):</h4>
-                    <input type="number" name="Luas" id="sisi-a-segitiga">
+                    <input type="number" name="sisi-a" id="sisi_a_segitiga">
                     
                     <h4 class="perhitungan-segitiga-h4">Sisi B (cm):</h4>
-                    <input type="number" name="Luas" id="sisi-b-segitiga">
+                    <input type="number" name="sisi-b" id="sisi_b_segitiga">
 
                     <h4 class="perhitungan-segitiga-h4">Sisi C (cm):</h4>
-                    <input type="number" name="Luas" id="sisi-c-segitiga">
+                    <input type="number" name="sisi-c" id="sisi_c_segitiga">
 
-                    <button class="buttons-perhitungan">
-                        Hitung
-                    </button>
-                    <button class="buttons-perhitungan-reset">
-                        Reset
-                    </button>
+                    <input type="button" class="buttons-perhitungan" id="button_hitung_kel" value="Hitung" onclick="hitung_kel();">
+                    <input type="button" class="buttons-perhitungan-reset" id="button_reset_kel" value="Reset" onclick="reset_kel();">
                 </center>
+            </section> <!-- Section Keliling End -->
+        </section> <!-- Section Perhitungan End -->
+        <section class="frame-hasil-perhitungan">
+            <section id="hasil_luas">
+
             </section>
 
-        </section>
+            <section id="hasil_keliling">
 
-    </section>
+            </section>
+        </section>
+    </section> <!-- Section Isi End -->
 </body>
 </html>
